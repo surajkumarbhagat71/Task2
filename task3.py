@@ -1,6 +1,10 @@
-def Result(a,b,x,y):
-    return (((x+(1/y))**((x-(1/y))**b)))/ (((y+(1/x))**a)*((y-(1/x))**b))
+#Q no -1
+def Series(n):
+    for i in range(1,n+1):
+        if i%2:
+            print(i*i+1)
+        else:
+            print(i*i-1)
 
-print(Result(1,2,3,4))
-    
-            
+Series(20)
+
